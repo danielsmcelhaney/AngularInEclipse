@@ -1,0 +1,18 @@
+/**
+ * 
+ */
+(function(ca){
+	ca.home = angular.module('caHome', []);
+	ca.home.controller('homeController', function($scope, $http) { 
+	    $http({
+	    	  method: 'GET',
+	    	  url: 'http://localhost:8080/asap/#!/name'
+	    	}).then(function successCallback(response) {
+	    		$scope.firstName = response.firstName;
+	    		$scope.lastName = response.lastName;
+	    	  }, function errorCallback(response) {
+	    		    $scope.firstName = "John";
+	    		    $scope.lastName = "Doe";   
+	    	  });
+	}); 
+})(window.myApp);

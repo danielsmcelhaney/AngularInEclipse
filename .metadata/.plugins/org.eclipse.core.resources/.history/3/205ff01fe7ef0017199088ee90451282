@@ -1,0 +1,5 @@
+package gov.tso.asap.web;
+
+public class NamesModel {
+
+}

@@ -1,0 +1,7 @@
+127.0.0.1 - - [01/Jan/2018:13:24:33 -0800] "GET / HTTP/1.1" 404 1073
+0:0:0:0:0:0:0:1 - - [01/Jan/2018:13:24:37 -0800] "GET /asap/ HTTP/1.1" 200 560
+0:0:0:0:0:0:0:1 - - [01/Jan/2018:13:24:37 -0800] "GET /asap/webjars/angularjs/1.6.0/angular-route.min.js HTTP/1.1" 200 5468
+0:0:0:0:0:0:0:1 - - [01/Jan/2018:13:24:37 -0800] "GET /asap/resources/scripts/app.js HTTP/1.1" 200 344
+0:0:0:0:0:0:0:1 - - [01/Jan/2018:13:24:37 -0800] "GET /asap/resources/scripts/homeController.js HTTP/1.1" 200 221
+0:0:0:0:0:0:0:1 - - [01/Jan/2018:13:24:37 -0800] "GET /asap/webjars/angularjs/1.6.0/angular.min.js HTTP/1.1" 200 165382
+0:0:0:0:0:0:0:1 - - [01/Jan/2018:13:24:38 -0800] "GET /asap/views/html/home.html HTTP/1.1" 200 178

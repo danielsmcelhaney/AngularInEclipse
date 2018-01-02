@@ -1,0 +1,15 @@
+/**
+ * 
+ */
+(function(ca){
+	'use strict';
+	ca.angular = angular.module("myApp", ["ngRoute"]);
+	ca.angular.config(function($routeProvider) {
+	    $routeProvider
+	    .when("/", {
+	    	controller: 'homeController',
+	        templateUrl : 'WEB-INF/html/home.html'	
+	        		
+	    });
+	});
+})(window.myApp || (window.myApp = {}));

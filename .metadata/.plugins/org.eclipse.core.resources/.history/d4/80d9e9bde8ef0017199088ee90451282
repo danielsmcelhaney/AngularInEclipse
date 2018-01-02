@@ -1,0 +1,10 @@
+/**
+ * 
+ */
+(function(ca){
+	ca.home = angular.module('caHome', []);
+	ca.home.controller('homeController', function($scope) {
+	    $scope.firstName = "John";
+	    $scope.lastName = "Doe";
+	}); 
+})(window.myApp);
